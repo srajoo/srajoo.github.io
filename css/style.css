@@ -1,0 +1,207 @@
+/*************************************** General styles ****************************************/
+
+.white-text{
+    color: white;
+}
+.pink-text
+{
+    color: #ed4d82;
+}
+.gradient-background {
+    background: linear-gradient(to right, #fbcace, #fea9b9,  #fdb8bb, #fea9b9, #fccdd7);
+}
+.solid-background
+{
+    background-color: #1e1e1e;
+}
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+li{
+    list-style: none;
+}
+
+/***********************************************************************************************/
+
+/*********************************************** Navbar ****************************************/
+
+.navbar
+{
+    border-radius: 0px;
+    margin-bottom: 0;
+    z-index: 300;
+    transition: .4s ease;
+    height: 70px;
+}
+.navbar-brand
+{
+    font-weight: bold;
+}
+.navbar-brand:hover{
+    color: #ed4d82;
+}
+.nav>li>a:hover{
+    border: 2px solid #ed4d82;
+    border-radius: 10px;
+    background: transparent;
+    color: white;
+}
+.scroll {
+    position: relative;
+    top: 15em;
+}
+.navbar-inverse .navbar-brand, .navbar-brand, .navbar-right li a, .navbar-inverse .navbar-right li a
+{
+    letter-spacing: 2px;
+    margin: 0.5em;
+    font-size: 18px;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    border: 2px solid #ed4d82;
+    border-radius: 10px;
+}
+
+/***********************************************************************************************/
+
+/* Intro styles */
+.jumbotron
+{
+    padding-top: 20em;
+    padding-bottom: 20em;
+    margin-bottom: 0px;
+    
+}
+.intro-title
+{
+    font-size: 50px;
+    font-weight: bold;
+}
+.intro-sub-title{
+    font-size: 20px;
+}
+.intro-social {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.social-icons {
+    margin: 1em;
+}
+.social-icons a {
+    color: #222;
+}
+.social-icons:hover {
+    transform: scale(1.5);
+}
+#scroll-down:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+/***********************************************************************************************/
+
+/* About styles */
+.about-title {
+    font-size: 30px;
+    margin: 2em;
+}
+
+.about-p {
+    margin: 1.5em;
+    font-size: 20px;
+}
+
+/***********************************************************************************************/
+
+/* Project styles */
+#projects {
+    display: grid;
+    justify-content: center;
+}
+.project-container {
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 595px 595px;
+}
+.project-title
+{
+    font-size:  30px;
+    margin: 2em;
+}
+.project {
+    height: 400px;
+    margin: 15px;
+    border-radius: 35px;
+    padding: 3em;
+}
+.project-header {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.project-description {
+    font-size: 20px;
+}
+.project-preview{
+    height: 200px;
+}
+.project-footer {
+    display: flex;
+}
+.info-button {
+    transition: .2s ease;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ed4d82;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 14px;
+    height: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.info-button span{
+    margin: 10px;
+}
+
+/***********************************************************************************************/
+
+/* Contact styles */
+.contact-title {
+    margin: 2em;
+    font-size: 30px;
+}
+.contact-body {
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/***********************************************************************************************/
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+footer p{
+    margin: 1.5em;
+    font-weight: bold;
+}
+
+/***********************************************************************************************/
+
+
+
+
+
+
+
+

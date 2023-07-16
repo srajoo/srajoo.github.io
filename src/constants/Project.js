@@ -12,8 +12,8 @@ export const projects = [
         description: "Data driven app to empower users to make safe decisions regarding mobility in Los Angeles",
         language: "Python, JavaScript",
         tools: "AWS Lex, AWS Lambda, Firebase, React, D3.JS, XGBoost, Pandas, Numpy, Flask, Vision API, MapBox Api",
-        link: "https://github.com/srajoo/Weekly-Progress-Report-Slack-Bot",
-        image: "/progress-report.png",
+        link: "",
+        image: "",
     },
     {
         title: "Memory Game",
@@ -21,7 +21,7 @@ export const projects = [
         language: "TypeScript",
         tools: "React",
         link: "https://srajoo.github.io/react-typescript-app/",
-        image: "/progress-report.png",
+        image: "",
     },
     {
         title: "Sine Wave Animation",
@@ -29,7 +29,7 @@ export const projects = [
         language: "TypeScript",
         tools: "React, Canvas API",
         link: "https://srajoo.github.io/CanvasAPI-react-typescript/",
-        image: "/progress-report.png",
+        image: "",
     },
     {
         title: "Yelp Recommendation System",
@@ -37,7 +37,7 @@ export const projects = [
         language: "Python",
         tools: "Spark, XGBoost",
         link: "https://github.com/srajoo/Yelp-Recommendation-System",
-        image: "/progress-report.png",
+        image: "",
     },
     {
         title: "Amtrack Performance Visualization and Train delay Prediction",
@@ -45,7 +45,7 @@ export const projects = [
         language: "Javascript, Python",
         tools: "Vue, D3.JS, VegaLite, Jupyter Notebook, Flask",
         link: "https://github.com/srajoo/Amtrack_performance_vizualization",
-        image: "/progress-report.png",
+        image: "",
     },
     {
         title: "Named Entity Recognition",
@@ -53,7 +53,7 @@ export const projects = [
         language: "Python",
         tools: "Jupter Lab, GloVe Embeddings, Numpy, NLTK",
         link: "https://github.com/srajoo/Named-Entity-Recognition-using-bidirectional-LSTM-model",
-        image: "/progress-report.png",
+        image: "",
     },
     
 

@@ -388,7 +388,7 @@ p.sub-header.sub-header{
 .shot-holder {
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .shot{
   overflow: hidden; 

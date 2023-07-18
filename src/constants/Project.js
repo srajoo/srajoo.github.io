@@ -13,7 +13,7 @@ export const projects = [
         language: "Python, JavaScript",
         tools: "AWS Lex, AWS Lambda, Firebase, React, D3.JS, XGBoost, Pandas, Numpy, Flask, Vision API, MapBox Api",
         link: "",
-        image: "",
+        image: "/safety_app.gif",
     },
     {
         title: "Amtrack Performance Visualization and Train delay Prediction",
@@ -21,7 +21,7 @@ export const projects = [
         language: "Javascript, Python",
         tools: "Vue, D3.JS, VegaLite, Jupyter Notebook, Flask",
         link: "https://github.com/srajoo/Amtrack_performance_vizualization",
-        image: "",
+        image: "/amtrack.gif",
     },
     {
         title: "Memory Game",

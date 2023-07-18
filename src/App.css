@@ -400,6 +400,9 @@ figure {
   color: #930560;
   font-weight: bold;
 }
+.info-blurb{
+  padding-top: 0 !important;
+}
 
 footer{
   padding: 10% 0 5%;

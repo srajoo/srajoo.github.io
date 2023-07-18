@@ -131,7 +131,7 @@ function Header ()
 
             <animated.div className="wrapper fadeInUp sub-header" style={trail[5]}>
                     <p className='sub-header center'>
-                        I'm passionate about automation, 24 hour code challenges, and using data driven approaches to create a positive social impact.
+                        I'm passionate about automation, 24 hour code challenges, and using data driven approaches to create positive social impact.
                     </p>
             </animated.div>
 
@@ -160,10 +160,11 @@ function Header ()
                         </div>
                     </Grid>
 
-                    <Grid item  md={6} sm={12}>
+                    <Grid item  md={6} sm={12} className='info-blurb'>
                         <div className='blurb'>
-                            <h2>I'm a recent grad from the University of Southern California with a masters in Data Science and bachelors in Computer Science</h2>
-                            <p>I have 3 years experience as a Software Engineer where I primarily worked with JavaScript. I also have 3 years experience working 
+                            <h2>I'm a leader who loves to innovate and learn. I do 24 code challenges where I pick up a new tech stack to learn.</h2>
+                            <p>I'm a recent grad from the University of Southern California with a masters in Data Science and bachelors in Computer Science.</p>
+                            <p>I have 3 years experience as a Software Engineer working with JavaScript and 3 years experience working 
                                 with Python to build data driven projects. I've worked in front-end development, back-end development, machine learning, and data 
                                 engineering. I'm proud to have worn many hats and have built a diverse skillset.
                             </p>

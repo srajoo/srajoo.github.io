@@ -56,6 +56,14 @@ export const projects = [
         link: "https://github.com/srajoo/Named-Entity-Recognition-using-bidirectional-LSTM-model",
         image: "/ner.png",
     },
+    {
+        title: "Celebrity Lorem Ipsum Generator",
+        description: "A fun content generator from audacious celebrities",
+        language: "JavaScript, Python",
+        tools: "Web Scraping, Flask, React",
+        link: "https://srajoo.github.io/Celebrity-Lorem-Ipsum/",
+        
+    }
     
 
 ];

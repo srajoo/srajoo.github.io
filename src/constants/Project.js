@@ -62,7 +62,7 @@ export const projects = [
         language: "JavaScript, Python",
         tools: "Web Scraping, Flask, React",
         link: "https://srajoo.github.io/Celebrity-Lorem-Ipsum/",
-        
+        image: "/celebsum.png"
     }
     
 

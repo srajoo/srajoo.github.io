@@ -35,7 +35,11 @@ function Project() {
                 </span>
             </animated.h1>
 
-           
+            <animated.div className="wrapper fadeInUp sub-header" style={trail[7]}>     
+                <p className='sub-header center'>
+                    The front, the back, and everything in between!
+                </p>
+            </animated.div>
 
             <div className='showcase-holder'>
                 <div className='showcase fadeInUp '  style={trail[8]}>

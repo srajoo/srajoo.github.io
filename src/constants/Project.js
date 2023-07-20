@@ -63,6 +63,14 @@ export const projects = [
         tools: "Web Scraping, Flask, React",
         link: "https://srajoo.github.io/Celebrity-Lorem-Ipsum/",
         image: "/celebsum.png"
+    },
+    {
+        title: "POS Tagging",
+        description: "Achieved 94% test-set accuracy for POS Tagging using the Greedy Decoding Algorithm and 95.1% test-set accuracy using Viterbi Decoding Algorithm on WSJ Corpus.",
+        language: "Python",
+        tools: "NLTK, Numpy, Jupyter Notebook",
+        link: "https://github.com/srajoo/POS-Tagging",
+        image: "/pos_tagging.png"
     }
     
 

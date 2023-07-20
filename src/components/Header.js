@@ -8,9 +8,11 @@ function Header ()
     const [scrollTop, setScrollTop] = useState(false);
     const [aboutActive, setAboutActive] = useState(true);
     const [projectActive, setProjectActive] = useState(false);
+    const [learnActive, setLearnActive] = useState(false);
     
     useEffect(() => {
         const handleScroll = (event) => {
+            
             if (window.scrollY > 5){
                 setScrollTop(true);
             }
@@ -18,13 +20,20 @@ function Header ()
                 setScrollTop(false);
             }
 
-            if(window.scrollY >= 932){
-                setProjectActive(true);
-                setAboutActive(false);
-            }
-            else {
+            if (window.scrollY < 932){
                 setProjectActive(false);
                 setAboutActive(true);
+                setLearnActive(false);
+            }
+            else if(window.scrollY >= 932 && window.screenY < 2540){
+                setProjectActive(true);
+                setAboutActive(false);
+                setLearnActive(false);
+            }
+            else if (window.scrollY >= 2540) {
+                setProjectActive(false);
+                setAboutActive(false);
+                setLearnActive(true);
             }
 
            
@@ -47,7 +56,7 @@ function Header ()
         });
         return styles;
       }, []);
-
+    
     return(
         
         <div>
@@ -65,6 +74,12 @@ function Header ()
                             active: projectActive
                         })}>
                             <a href="#project" className="main-link">Projects</a>  
+                            
+                        </li>
+                        <li className={classnames({
+                            active: learnActive
+                        })}>
+                            <a href="#learn" className="main-link">Algorithms</a>  
                             
                         </li>
                         <li>

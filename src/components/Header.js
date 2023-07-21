@@ -146,7 +146,7 @@ function Header ()
 
             <animated.div className="wrapper fadeInUp sub-header" style={trail[5]}>
                     <p className='sub-header center'>
-                        I'm passionate about automation, 24 hour code challenges, and using data driven approaches to create positive social impact.
+                        I'm passionate about advocacy, automation, accessibility, empowerment, and using data driven approaches to create positive social impact.
                     </p>
             </animated.div>
 
@@ -197,6 +197,7 @@ function Header ()
                                         <Chip label="SQL" variant="outlined" />
                                         <Chip label="HTML/CSS" variant="outlined" />
                                         <Chip label="R" variant="outlined" />
+                                        <Chip label="PHP" variant="outlined" />
                                     </Stack>
                                 </li>
                                 <li>Data Storage:

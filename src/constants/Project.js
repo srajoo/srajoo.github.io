@@ -40,6 +40,14 @@ export const projects = [
         image: "/sine_wave.gif",
     },
     {
+        title: "Celebrity Lorem Ipsum Generator",
+        description: "A fun content generator from audacious celebrities",
+        language: "JavaScript, Python",
+        tools: "Web Scraping, Flask, React",
+        link: "https://srajoo.github.io/Celebrity-Lorem-Ipsum/",
+        image: "/celebsum.png"
+    },
+    {
         title: "Yelp Recommendation System",
         description: "Trained a hybrid collaborative filtering recommendation model using item-based collaborative filtering and gradient boosting model with RMSE: 0..97.",
         language: "Python",
@@ -56,14 +64,7 @@ export const projects = [
         link: "https://github.com/srajoo/Named-Entity-Recognition-using-bidirectional-LSTM-model",
         image: "/ner.png",
     },
-    {
-        title: "Celebrity Lorem Ipsum Generator",
-        description: "A fun content generator from audacious celebrities",
-        language: "JavaScript, Python",
-        tools: "Web Scraping, Flask, React",
-        link: "https://srajoo.github.io/Celebrity-Lorem-Ipsum/",
-        image: "/celebsum.png"
-    },
+  
     {
         title: "POS Tagging",
         description: "Achieved 94% test-set accuracy for POS Tagging using the Greedy Decoding Algorithm and 95.1% test-set accuracy using Viterbi Decoding Algorithm on WSJ Corpus.",

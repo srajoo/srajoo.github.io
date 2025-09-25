@@ -1,10 +1,9 @@
-import {memo, useMemo, useState, useEffect} from 'react';
-import { animated } from 'react-spring';
-import classnames from 'classnames';
+import { useMemo} from 'react';
+
 import { 
-    Grid, Stack, Typography, Chip, Box, styled, Paper, Card,
+    Grid, Typography, Box, styled, Paper, Card,
     CardActionArea, CardMedia,
-    CardContent, CardActions, Button
+    CardContent
 } from '@mui/material';
 import { items } from '../constants/KnowledgeBase';
 import {
@@ -90,7 +89,7 @@ function Body(){
                             border: "5px solid #930560",
                             borderRadius: '0.75rem',
                             background: "#930560",
-                            minHeight: '530px'
+                            //minHeight: '530px'
                            
                         }}>
                         

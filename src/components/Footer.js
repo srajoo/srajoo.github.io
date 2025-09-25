@@ -1,5 +1,5 @@
 import {Box, Stack} from '@mui/material';
-import {memo, useMemo, useState, useEffect} from 'react';
+import {useMemo} from 'react';
 
 function Footer() {
     const trail = useMemo(() => {

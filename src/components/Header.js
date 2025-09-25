@@ -1,7 +1,6 @@
-import {memo, useMemo, useState, useEffect} from 'react';
+import {useMemo, useState, useEffect} from 'react';
 import { animated } from 'react-spring';
-import classnames from 'classnames';
-import { Grid, Stack, Typography, Chip} from '@mui/material';
+
 
 function Header () 
 {

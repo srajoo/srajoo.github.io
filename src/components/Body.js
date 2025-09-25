@@ -180,10 +180,10 @@ function Body(){
 
                                     </li>
                                     <li>
-                                    Breast Cancer SubType Prediction Models using Symbolic Reasoning llms
+                                    Breast Cancer SubType Prediction Models using Symbolic Reasoning LLMs
                                     </li>
                                     <li>
-                                    Interprtable Bias Detection in LLM outputs using structural decision trees
+                                    Interpretable Bias Detection in LLM outputs using structural decision trees
                                     </li>
                                 
                                 </ul>

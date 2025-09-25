@@ -60,40 +60,13 @@ function Header ()
     return(
         
         <div>
-            <header>
-                <animated.nav className='fadeInUp' style={trail[1]} sticky="top" >
-                    <ul id="nav_bar" className={classnames('main', {
-                        blur: scrollTop,
-                    })}>
-                        <li className={classnames({
-                            active: aboutActive
-                        })}>
-                            <a href="#about" className="main-link">About</a>
-                        </li>
-                        <li className={classnames({
-                            active: projectActive
-                        })}>
-                            <a href="#project" className="main-link">Projects</a>  
-                            
-                        </li>
-                        <li className={classnames({
-                            active: learnActive
-                        })}>
-                            <a href="#learn" className="main-link">Algorithms</a>  
-                            
-                        </li>
-                        <li>
-                            <a href="/Sandra_Rajoo.pdf" target='_blank' className="main-link">Resume</a>
-                        </li>
-                    </ul>
-                </animated.nav>
-            </header>
+            
             <div id="about">
             <animated.h1 className="intro-heading">
                 <span slot="title" className="intro-main-span">
                     <span className="intro-main-span holder">
                         <span className="holder-content intro-main-span fadeInUp" style={trail[2]}>
-                            Hi! I'm Sandra!
+                            Sandra Rajoo
                             <span className='stars right intro-main-span'>
                                 <figure className='star-fig'>
                                     <img src='/star.svg' className='star-fig skip loaded' />
@@ -109,11 +82,13 @@ function Header ()
                 </span>
             </animated.h1>
 
-            <animated.h2 className="intro-sub-heading">
+            {
+                /*
+                <animated.h2 className="intro-sub-heading">
                     <span slot="title" className="intro-main-span">
                         <span className="intro-main-span holder"> 
                             <span className="holder-content intro-main-span fadeInUp" style={trail[3]}>
-                                Full Stack | Big Data | Artist | USC '23
+                                Philosophy | Prose | Programming | Problem Solving
                             </span>
                         </span>
                     </span>
@@ -143,98 +118,10 @@ function Header ()
 					</a>
 				</div>
 			</animated.div>
+                */
+            }
 
-            <animated.div className="wrapper fadeInUp sub-header" style={trail[5]}>
-                    <p className='sub-header center'>
-                        I'm passionate about advocacy, automation, accessibility, empowerment, and using data driven approaches to create positive social impact.
-                    </p>
-            </animated.div>
-
-            <animated.div className="fadeInUp intro-deets" style={trail[6]} >
-                <Grid container spacing={{ xs: 2}}  justifyContent="space-evenly">
-                    <Grid xs={2} item className='d-content' alignItems="center">
-                        <div className='image-content'>
-                            <div className='image-holder'>
-                                <figure >
-                                    <img src='/avatar.png' height="360"  width="380"/>
-                                </figure>
-                            </div>
-                            <div className='music-player'>
-                            <div className='icon'>
-                                <img src="/spotify.svg"/>
-                            </div>
-                            <div className='track'>
-                                <div className='artist'>On Repeat </div>
-                                <div className='song'>
-                                    <a href="https://open.spotify.com/track/6537jhwnXegjdXhLqorbjE" target='_blank'>
-                                        Always by Daniel Caesar feat. Summer Walker
-                                    </a>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                    </Grid>
-
-                    <Grid item  md={6} sm={12} className='info-blurb'>
-                        <div className='blurb'>
-                            <h2>I'm a leader who loves to innovate and learn. I do 24 code challenges where I pick up a new tech stack to learn.</h2>
-                            <p>I'm a recent grad from the University of Southern California with a masters in Data Science and bachelors in Computer Science.</p>
-                            <p>I have 3 years experience as a Software Engineer working with JavaScript and 3 years experience working 
-                                with Python to build data driven projects. I've worked in front-end development, back-end development, machine learning, and data 
-                                engineering. I'm proud to have worn many hats and have built a diverse skillset.
-                            </p>
-
-                            <h4> Tech Stack:</h4>
-                            <ul>
-                                <li>Programming: 
-                                    <Stack 
-                                        direction={{ xs: 'column', sm: 'row' }}
-                                        spacing={1}
-                                    >
-                                        <Chip label="Python" variant="outlined"/>
-                                        <Chip label="JavaScript" variant="outlined" />
-                                        <Chip label="TypeScript" variant="outlined" />
-                                        <Chip label="SQL" variant="outlined" />
-                                        <Chip label="HTML/CSS" variant="outlined" />
-                                        <Chip label="R" variant="outlined" />
-                                        <Chip label="PHP" variant="outlined" />
-                                    </Stack>
-                                </li>
-                                <li>Data Storage:
-                                    <Stack 
-                                        direction={{ xs: 'column', sm: 'row' }}
-                                        spacing={1}
-                                    >
-                                        <Chip label="MySQL" variant="outlined"/>
-                                        <Chip label="MongoDB" variant="outlined" />
-                                        <Chip label="Firebase" variant="outlined" />
-                                        <Chip label="S3" variant="outlined" />
-                                        <Chip label="Dynamo DB" variant="outlined" />
-                                    </Stack>
-                                </li>
-                                <li>Frameworks/Tools:
-                                    <Stack 
-                                        direction={{ xs: 'column', sm: 'row' }}
-                                        spacing={1}
-                                    >
-                                        <Chip label="React" variant="outlined"/>
-                                        <Chip label="Spark" variant="outlined"/>
-                                        <Chip label="Slack" variant="outlined"/>
-                                        <Chip label="D3.js" variant="outlined"/>
-                                        <Chip label="Scikit-learn" variant="outlined"/>
-                                        <Chip label="Flask" variant="outlined"/>
-                                        <Chip label="NLTK" variant="outlined"/>
-                                        <Chip label="VS Code" variant="outlined"/>
-                                        <Chip label="Github" variant="outlined"/> 
-                                    </Stack>
-
-                                </li>
-                            </ul>
-                        </div>
-                    </Grid>
-                </Grid>
-
-            </animated.div>
+            
             </div>
             
         </div>

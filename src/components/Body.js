@@ -10,6 +10,7 @@ import { items } from '../constants/KnowledgeBase';
 import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
 import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
 import GridViewIcon from '@mui/icons-material/GridView';
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import {
     Description,
     Security,
@@ -113,19 +114,24 @@ function Body(){
                                     flexDirection: { xs: 'column', md: 'row'}
                                 }}
                             >
-                            <div className='music-player'>
+                                 <a href="https://www.instagram.com/share/_pODKtAky" target='_blank' style={{ textDecoration: 'none'}}>
+                                 <div className='music-player'>
                                         <div className='icon'>
-                                            <img src="/insta.png"/>
+                                           <PlayCircleIcon sx={{
+                                            fontSize: '2rem'
+                                           }} />
                                         </div>
                                         <div className='track'>
                                             <div className='artist'>On Repeat </div>
                                             <div className='song'>
-                                                <a href="https://www.instagram.com/share/_pODKtAky" target='_blank'>
+                                               
                                                     FUNEMPLOYED | SKIVINNIE, 11EVEN
-                                                </a>
+                                                
                                             </div>
                                         </div>
                             </div>
+                                 </a>
+                            
 
                             
 

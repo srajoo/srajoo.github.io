@@ -6,12 +6,12 @@ export const items = [
     },
     {
         title: 'Essays',
-        icon: 'Article',
+        icon: 'FolderSpecialIcon',
         url: 'https://drive.google.com/drive/folders/1yqE4PViutLsfBix9ARPaYW8LdbkOwhpa'
     },
     {
         title: 'Breast Cancer Predictive Model',
-        icon: 'Psychology',
+        icon: 'VolunteerActivismIcon',
         url: 'https://drive.google.com/drive/folders/1sIeEWDoHpeBDwd3uzMGkyl2X1B8dc_pj'
     },
     {
@@ -25,8 +25,8 @@ export const items = [
         url: 'https://drive.google.com/drive/folders/1qRW05pII4VpVmf0o5ffMm_cExQgcLJYD'
     },
     {
-        title: 'Memory Game',
-        icon: 'SportsEsports',
+        title: 'Tile Matching Game',
+        icon: 'GridViewIcon',
         url: 'https://srajoo.github.io/react-typescript-app/'
     },
     {
@@ -39,14 +39,15 @@ export const items = [
         icon: 'TextFields',
         url: 'https://srajoo.github.io/Celebrity-Lorem-Ipsum/'
     },
-    {
-        title: 'Yelp Recommendation System',
-        icon: 'Restaurant',
-        url: 'https://github.com/srajoo/Yelp-Recommendation-System'
-    },
+    
     {
         title: 'Weekly Progress Report Slack Bot',
         icon: 'SmartToy',
         url: 'https://github.com/srajoo/Weekly-Progress-Report-Slack-Bot'
+    },
+    {
+        title: 'Yelp Recommendation System',
+        icon: 'Restaurant',
+        url: 'https://github.com/srajoo/Yelp-Recommendation-System'
     }
 ];

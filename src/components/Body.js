@@ -6,10 +6,12 @@ import {
     CardContent
 } from '@mui/material';
 import { items } from '../constants/KnowledgeBase';
+
+import VolunteerActivismIcon from '@mui/icons-material/VolunteerActivism';
+import FolderSpecialIcon from '@mui/icons-material/FolderSpecial';
+import GridViewIcon from '@mui/icons-material/GridView';
 import {
     Description,
-    Article,
-    Psychology,
     Security,
     Architecture,
     SportsEsports,
@@ -21,11 +23,11 @@ import {
 
 const iconMap = {
     Description,
-    Article,
-    Psychology,
+    FolderSpecialIcon,
+    VolunteerActivismIcon,
     Security,
     Architecture,
-    SportsEsports,
+    GridViewIcon,
     ShowChart,
     TextFields,
     Restaurant,
@@ -118,7 +120,7 @@ function Body(){
                                         <div className='track'>
                                             <div className='artist'>On Repeat </div>
                                             <div className='song'>
-                                                <a href="https://www.instagram.com/p/DGAdcOmCsrV/?hl=en" target='_blank'>
+                                                <a href="https://www.instagram.com/share/_pODKtAky" target='_blank'>
                                                     FUNEMPLOYED | SKIVINNIE, 11EVEN
                                                 </a>
                                             </div>

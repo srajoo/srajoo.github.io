@@ -3,7 +3,8 @@ import { useMemo} from 'react';
 import { 
     Grid, Typography, Box, styled, Paper, Card,
     CardActionArea, CardMedia,
-    CardContent
+    CardContent,
+    Divider
 } from '@mui/material';
 import { items } from '../constants/KnowledgeBase';
 
@@ -103,6 +104,10 @@ function Body(){
                             </Typography>
                             <CardMedia
                             component="img"
+                            sx={{
+                                width:{md: '80%'},
+                                margin:{md: '0 3rem'},
+                            }}
                         
                             image="/avatar.png"
                             alt="Sandra Rajoo"
@@ -137,6 +142,32 @@ function Body(){
 
                             
                     </Box>
+                    <Divider sx={{ border: "1px solid black"}} />
+                    <Box
+                        sx={{
+                            padding: '0.5rem 2rem 0 '
+                        }}
+                    >
+
+                    <Box
+                        sx={{
+                            display: 'flex',
+                            justifyContent: 'space-between'
+                        }}
+                    >
+                            <Typography><span style={{color: 'white', fontWeight: '900'}}>streamOS</span></Typography>
+                            <Typography sx={{color: 'white'}}>Mar 2024 - Present</Typography>
+                            
+                    </Box>
+                        <Typography sx={{color: 'white', textAlign: 'left',}}> - Solving revenue generation efficiency problems for finance teams</Typography>
+                    </Box>
+
+
+                    
+                        
+
+
+                    
                             
                         
                         </Card>
@@ -157,9 +188,11 @@ function Body(){
                         >
 
                             <CardContent>
+                                
                                 <Typography className='title' sx={{textAlign: 'left', fontSize: '1.5rem'}}>
                                     Problem Solving as a Service
                                 </Typography>
+                             
                                 <ul>
                                     <li>
                                     <span style={{color: '#930560', fontWeight: '900'}}>Optimization-Driven Architecture:</span> Systems with a focus on space complexity optimizations 
